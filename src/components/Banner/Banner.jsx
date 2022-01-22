@@ -34,7 +34,7 @@ const Banner = () => {
         <Container className={classes.bannerContent}>
             <div className={classes.tagline}>
                 <Typography
-                    variant="h2"
+                    variant="h3"
                     style={{
                         color:"#2c3e50",
                         fontWeight: "bold",
@@ -50,10 +50,10 @@ const Banner = () => {
                         color: "darkgrey",
                         textTransform: "capitalize",
                         fontFamily: "Montserrat",
-                        fontSize:"22px"
+                        fontSize:"20px"
                     }}
                 >
-                    Get all the Info regarding your favorite Crypto Currency
+                    Get all the info regarding your favorite Crypto Currencies
                 </Typography>
             </div>
             <Carousel />
